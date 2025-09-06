@@ -1,7 +1,26 @@
 [project]
-name = "documents-classification"
+name = "provided-classification-labels"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "bs4>=0.0.2",
+    "chroma>=0.2.0",
+    "chromadb>=1.0.20",
+    "configparser>=7.2.0",
+    "dotenv-loader>=1.0.4",
+    "easyocr>=1.7.2",
+    "langchain>=0.3.27",
+    "langchain-chroma>=0.2.5",
+    "langchain-community>=0.3.29",
+    "langchain-core>=0.3.75",
+    "langchain-google-genai>=2.1.10",
+    "matplotlib>=3.10.6",
+    "opencv-python>=4.12.0.88",
+    "pydantic>=2.11.7",
+    "pypdf>=6.0.0",
+    "pytesseract>=0.3.13",
+    "setuptools>=80.9.0",
+    "supabase>=2.18.1",
+]
