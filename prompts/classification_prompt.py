@@ -9,10 +9,10 @@ Classes:
     - "Python"
 
 Reply must only contain one string from Classes
-Ex- If context is related to langchain then answer is 
-    "langchain" 
+Ex- If context is related to langchain then answer is
+    "langchain"
     i.e. only one string as output
     {context}
 """
 
-HUMAN = """Classify the context. Reply with only the class name. Question: {question}"""
+HUMAN = """Reply with only a class name. Question: {question}"""

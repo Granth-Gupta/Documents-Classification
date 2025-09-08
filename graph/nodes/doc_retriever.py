@@ -40,9 +40,6 @@ def print_all_contents(path: str) -> List[str]:
     return content
 
 if __name__ == "__main__":
-    content = print_all_contents(DOCS_PATH)
-
-    for i, text in enumerate(content):
-        print(f"Document {i+1}: ", text[:200])
-        print("\n")
+    content = data_retriever(DOCS_PATH+"/File1.pdf")
+    print(content)
 
